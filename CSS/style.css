@@ -1,2 +1,11 @@
-section{width: 100%;}
-section h1{text-align: center; padding: 0.5em; color: rgb(231, 21, 91); font-size: 45px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+header{
+    z-index: 100;
+}
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+.description:hover{
+    height: 80px;
+}
