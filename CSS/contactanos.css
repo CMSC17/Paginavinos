@@ -1,0 +1,41 @@
+/* Estilos para la barra de título */
+.contactoTitle{
+    background: #75ced1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 35px;
+    margin-top: 35px;
+}
+
+/* Estilos para el main del contacto.html*/
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#dd8b81;
+    border: thin solid black;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+}
+/* Estilos para el body del contacto.html*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+/* Estilos para las etiquetas <label> del contacto.html*/
+label{
+    font-family: cursive;
+    color: #432818;
+    font-size: large;
+}
+
+#btnEnviar:hover{
+    transform: scale(1.1); 
+    transition: all 200ms; 
+}
